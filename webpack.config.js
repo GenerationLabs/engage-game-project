@@ -2,7 +2,7 @@
 var webpack = require('webpack');
 
 module.exports = {
-    entry: "./app.ts",
+    entry: "./weapon.ts",
     output: {
         path: __dirname,
         filename: "bundle.js"
