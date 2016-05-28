@@ -17,12 +17,16 @@
    .nickmid{
       animation:grow 8s linear infinite;
       border-radius: 8px;
+      position: relative;
+      z-index: 5;
    }
    .nick{
       -webkit-animation:spin 8s linear infinite;
     -moz-animation:spin 8s linear infinite;
     animation:spin 8s linear infinite;
     border-radius: 8px;
+    position: relative;
+    z-index: 2;
    }
    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
@@ -35,7 +39,7 @@
 
 
    <center>
-      <h1>He is Always Watching!</h1>
+      <h1>He is Always Watching!</h1><br /><br /><br />
    </center>
          <div class="apparea">
 
